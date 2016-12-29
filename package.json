@@ -4,6 +4,7 @@
   "description": "Create a printer on the network",
   "main": "index.js",
   "bin": "./bin.js",
+  "start": "bin.js",
   "dependencies": {
     "bonjour": "^3.0.0",
     "debug": "^2.2.0",
