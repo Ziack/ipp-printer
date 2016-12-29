@@ -2,7 +2,7 @@
 'use strict'
 
 var config = require('rc')('ipp-printer', {
-  name: 'ipp-printer', dir: process.cwd(), port: 3000
+  name: 'ipp-printer', dir: process.cwd(), port: process.env.PORT  || 3000
 })
 var nonPrivate = require('non-private-ip')
 var url = require('url')
