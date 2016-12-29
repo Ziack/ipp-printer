@@ -4,7 +4,6 @@
   "description": "Create a printer on the network",
   "main": "index.js",
   "bin": "./bin.js",
-  "start": "bin.js",
   "dependencies": {
     "bonjour": "^3.0.0",
     "debug": "^2.2.0",
@@ -21,7 +20,8 @@
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "start": "bin.js"
   },
   "repository": {
     "type": "git",
